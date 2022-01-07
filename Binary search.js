@@ -1,3 +1,4 @@
+// Function to return the index of an element from a sorted array. Parameters - sortedArray, element(key)
 function binarySearch(sortedArray, key) {
     let start = 0, end = sortedArray.length - 1;
     while (start <= end) {
